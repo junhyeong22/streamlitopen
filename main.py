@@ -113,7 +113,7 @@ st.date_input('탐지 날짜',value=None,min_value=None,max_value=None)
 st.date_input('위성 이미지 날짜',value=None,min_value=None,max_value=None)
 
 from io import BytesIO
-folder=
+
 with open(folder + "가로등 고장_Data.txt", encoding='utf-8') as text_file:
     text_data=text_file.read()
 st.download_button(label='고장 DB 생성',
