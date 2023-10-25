@@ -74,19 +74,19 @@ st.subheader('픽셀 밝기 및 가로등 상태 정보')
 st.text('픽셀 밝기 값 범위: 1.30 - 104.09')
 st.text('픽셀 밝기 분위수: 0%:1.30,  40%:33.88,  70%:49.75,  100%:104.09')
 st.text("가로등 상태(픽셀밝기): ")
-st.text("-49.75 이상:정상")
-st.text("-33.88 이상:점검 필요")
-st.text("-33.87 이하:전구 교체 필요")
+st.text("-49.75 이상: 정상")
+st.text("-33.88 이상: 점검 필요")
+st.text("-33.87 이하: 전구 교체 필요")
 #----------------------------
     
 #st.sidebar는 
 
 st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 
-col1,col2 = st.columns([3,3])
+col1,col2 = st.columns([2,3])
 image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
 with col1 : 
-    st.sidebar.image(image_url, width=50, caption=None)
+    st.sidebar.image(image_url, width=40, caption=None)
 with col2 :
     st.sidebar.header("대구공공시설관리공단")
     
