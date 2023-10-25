@@ -30,7 +30,7 @@ html_content = load_html_file(html_file_path)
 st.components.v1.html(html_content, width=800, height=600)
 
 
-tab1, tab2, tab3 = st.tabs(['Tab A' , 'Tab B', 'Tab C'])
+tab1, tab2, tab3 = st.tabs(['야간 이미지 전처리' , '가로등 위치 데이터', '솔루션 명'])
 
 with tab1:
   #tab A 를 누르면 표시될 내용
