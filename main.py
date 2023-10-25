@@ -104,7 +104,7 @@ with tab1:
   #tab A 를 누르면 표시될 내용
   image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhN4019BLBDsgYTzFZjdXBlYJdgiq0aBCcwaph8nsdSkyeooMzyVIldqYgjbkP2ybSdYJ_Mu6UAbsOpjkcktn5WjhqtWclymvlvrDc5KvluRCx6Zoqb8wCovuOQt9E92DNVEXhtFEzmIGWOVjbpGsk2YeyGUZR_AYxI4Cksz_Tl_iT4Y3ypcqY5MdHAgEI"
   st.image(image_url, width=250, caption=None)
-  image_url ="https://img.freepik.com/premium-photo/computer-location-hacking-and-cybersecurity-hologram-screen-with-software-for-futuristic-technology-in-office-data-protection-overlay-and-dashboard-tech-virtual-reality-map-and-satellite-info_590464-214940.jpg"
+  image_url ="https://blogger.googleusercontent.com/img/a/AVvXsEj7nn_XYZV-E_L2QrSN7xwtGvWBQbt3qY0WDI01aplnHQW71xdAPcYSxLy1MGo6w6NVwLNDvRZMiN33ki7wEeiR28hhIIzjaIoSLYdpLxcW5VDjMe01mHeNlAnnlqPMbWLD5BwdzRLGGYlGoARy27OjRr6hCji7SJQYXYlesj6ZQI89FvfxU2Ez_G9js3g"
   st.image(image_url, width=250, caption=None)
 
 with tab2:
