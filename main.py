@@ -7,7 +7,7 @@ from PIL import Image
 
 
 
-st.title("[가로등 종합 관리 솔루션]")
+st.title("[가로등 종합 관리 솔루션 : 비추다]")
 st.header("")
 st.header("")
 
