@@ -76,8 +76,8 @@ col2.checkbox('절연저항이 불량한 지중선을 정비하고 노후 가로
 
 st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 
-image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhMryj65ZL7O7KGjWQCAaEd9zd_Zl3d3GPhL4aOKiL_Nrh6qAXpI-NlPHoOUXAimA8896ZfKyEQ1McXDZRAjUj72ALPmfeuC1E9bnZpVkl0voM6LnHoplzMHtJSYEX1kz2w348M1iOcE5flDYBzlD7T2fYByRb6kzQ4lbyQPQSD5gEKt3qvLaC5hKIXaYU"
-st.image(image_url, width=100, caption=None)
+image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
+st.sidebar.image(image_url, width=50, caption=None)
 st.sidebar.header("대구공공시설관리공단")
 st.sidebar.header("")
 st.sidebar.header("<가로등 정비 솔루션 POC>")
