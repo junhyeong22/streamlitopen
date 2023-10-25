@@ -114,12 +114,15 @@ st.date_input('위성 이미지 날짜',value=None,min_value=None,max_value=None
 
 from io import BytesIO
 
-with open(folder + "가로등 고장_Data.txt", encoding='utf-8') as text_file:
-    text_data=text_file.read()
-st.download_button(label='고장 DB 생성',
-                   data = text_data,
-                   file_name="가로등_고장 Data.txt"
-)
+#with open(folder + "가로등 고장_Data.txt", encoding='utf-8') as text_file:
+#    text_data=text_file.read()
+#st.download_button(label='고장 DB 생성',
+#                   data = text_data,
+#                   file_name="가로등_고장 Data.txt"
+#)
+
+text_contents = '''This is some text'''
+st.download_button('가로등 고장 DB 생성', text_contents)
 
 st.header("")
 st.header("")
