@@ -73,11 +73,11 @@ col2.checkbox('절연저항이 불량한 지중선을 정비하고 노후 가로
     
 #st.sidebar는 
 
-st.sidebar.title('WEAREALL : 우리는 전부')
+st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 st.sidebar.header("<가로등 정비 솔루션 POC>")
 
 # 사이드바에 체크박스, 버튼등 추가할 수 있습니다! 
-tab1, tab2= st.sidebar.tabs(['Tab A' , 'Tab B'])
+tab1, tab2= st.sidebar.tabs(['대시보드' , '통계 분석'])
 
 with tab1:
   #tab A 를 누르면 표시될 내용
