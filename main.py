@@ -112,8 +112,9 @@ with tab2:
   image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEgibPR0VQ_bi-IPIxhbh1CEJDjTVJ-pBMPKXI5_UYUq5DtlKHPFcdkep4CL_ECYD_aT-u1FuNey2H6mY38QBHHECaaku3nET9iE6vcmf-R2XM0yxAs8YQPQbg9huDDk_D0lZaKTaQOfPJf5UVLQkQeS0pUGi3J9q4sm8Z9qPlKtabTT6whe2u-oQ4EqfWY"
   st.image(image_url, width=250, caption=None)
   image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhn3iGRKlfrf43FZC-YmzVW7Kyt0m3FLtAEYVC3mXMVyBXkFrNmyx6pNWpCP86fJkF4hq-X4_1eFFzfsDx0KaRZ3N4t9o6BSs4sRbdwKWuCoFuB7WJVIlSYFrC9HrUcSy8ClOusPsYHqSrJJRmCcmf9STTh4CYwgvyyujR8YdsLSUUWd-JfDMwC6PWGWcQ"
-  st.image(image_url, width=250, caption=None)  
-    
+  st.image(image_url, width=250, caption=None)
+  image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEgofr72ufMzfkGEpMJhKzv-r8-tKGRBzkKLQxqmqVxOrggR7I48hm4RZQEPHkMSXvNpmjsF9lZ9rHLwFKfeQVXk3vDHo1SifZut329-8V0lHM-PeUCTmljxTp2oG_2821NUEXRZvou_eS-fSNzbtNpS9hGWP6eNITCWVmBxd6_hTPycXGEFT0TiOBocVAY"
+  st.image(image_url, width=250, caption=None)    
     
 
 #------------------------------------------------------------------------
