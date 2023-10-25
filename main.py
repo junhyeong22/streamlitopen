@@ -90,7 +90,7 @@ st.sidebar.header(" ")
 
 with col3 : 
     image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
-    st.sidebar.image(image_url, width=30, caption=None)
+    st.sidebar.image(image_url, width=50, caption=None)
 with col4 :
     st.sidebar.header("대구공공시설관리공단")
 
