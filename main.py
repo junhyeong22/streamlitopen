@@ -86,7 +86,7 @@ st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 col3,col4 = st.columns([3,3])
 
 st.sidebar.header(" ")
-st.sidebar.header(" ")
+
 
 with col3 : 
     image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
