@@ -83,7 +83,7 @@ st.text("-33.87 이하: 전구 교체 필요")
 
 st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 
-col3,col4 = st.columns([2,3])
+col3,col4 = st.columns([3,3])
 
 with col3 : 
     image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
