@@ -95,7 +95,7 @@ with col4 :
     st.sidebar.header("대구공공시설관리공단")
 
 st.sidebar.header("")
-st.sidebar.header("<가로등 정비 솔루션 POC>")
+st.sidebar.header("<가로등 종합 관리 솔루션 POC>")
 
 # 사이드바에 체크박스, 버튼등 추가할 수 있습니다! 
 tab1, tab2= st.sidebar.tabs(['대시보드' , '통계 분석'])
