@@ -1,9 +1,3 @@
-from pathlib import Path
-dir_path = Path('C:/myPyAI/code/st/text_app.py')
-dir_path.mkdir(parents=True, exist_ok=True)
-print("{0} 디렉토리 존재 여부: {1}".format(dir_path,dir_path.exists()))
-%%writefile C:/myPyAI/code/st/text_app.py
-    
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -29,7 +23,7 @@ def load_html_file(file_path):
 
 
 # HTML 파일 경로 설정
-html_file_path = "C:/Users/junhyeong/Downloads/circled_lightmap_with_brightness.html"  # 여기에 실제 파일 경로를 입력하세요.
+html_file_path = "circled_lightmap_with_brightness.html"  # 여기에 실제 파일 경로를 입력하세요.
 
 # HTML 파일을 불러온 후 출력
 html_content = load_html_file(html_file_path)
