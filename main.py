@@ -139,7 +139,7 @@ st.header("")
 
 
 #def main():
-#  df = pd.read_csv('"/바탕 화면/대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv"', encoding='utf-8')
+#  df = pd.read_csv('대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv', encoding='utf-8')
 #st.dataframe(df)
 
 
@@ -155,7 +155,7 @@ st.header("")
 
 
 
-#csv_file_path = '/바탕 화면/대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv'
+#csv_file_path = '대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv'
 # CSV 파일을 데이터 프레임으로 읽습니다.
 ## 문자열로 데이터 타입을 설정하고 CSV 파일을 읽습니다.
 #def main():
@@ -175,7 +175,7 @@ if __name__ == "__main__" :
     main()
 
 def main() :
-    df = pd.read_csv("C:\myPyAI\data\대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv", encoding='utf-8')
+    df = pd.read_csv('대구공공시설관리공단_가로등시스템 고장등관리_20230825.csv', encoding='utf-8')
 
     with st.expander('데이터프레임 보기') :
         st.dataframe(df)
