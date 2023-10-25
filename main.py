@@ -77,9 +77,8 @@ col2.checkbox('절연저항이 불량한 지중선을 정비하고 노후 가로
 st.sidebar.title('WE_ARE_ALL : 우리는 전부')
 
 col1,col2 = st.columns([3,3])
-
+image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
 with col1 : 
-    image_url = "https://blogger.googleusercontent.com/img/a/AVvXsEhwH0dMFEoRwggB-g6Rfber_OaPbjcw3L--pR--LkztJNxwWdcPpnOxSOOXUiexAi7P9frycNcJ2VjHjErdfGthSYWFpsTj6UPjWMaEUcmasuFIjKK5EC6mJHRyjha16nywTpUqFKcPAtmcUfNG-F0Pd_EBP38Ww1d7csoH1CXlhT8-DgjRtW-mYGDoLLQ"
     st.sidebar.image(image_url, width=50, caption=None)
 with col2 :
     st.sidebar.header("대구공공시설관리공단")
