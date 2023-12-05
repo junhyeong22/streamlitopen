@@ -18,6 +18,7 @@ st.header("")
 
 st.subheader(" 대구광역시 가로등 데이터 + 인공위성 데이터")
 
+@st.cache
 
 def load_html_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
