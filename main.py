@@ -9,7 +9,7 @@ from PIL import Image
 
 
 with st.spinner('Wait for it...'):
-    time.sleep(5)
+    time.sleep(20)
 st.success('Done!')
 
 
