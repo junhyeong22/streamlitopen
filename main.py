@@ -1,12 +1,16 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import time
 
 from PIL import Image
 
 
 
 
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+st.success('Done!')
 
 
 st.title("[가로등 종합 관리 솔루션 : 비추다]")
