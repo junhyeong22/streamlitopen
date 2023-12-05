@@ -8,7 +8,7 @@ from PIL import Image
 
 with st.spinner('잠시만 기다려주세요. 데이터 수집중..'):
     time.sleep(5)
-st.success('완료')
+
 
 
 
