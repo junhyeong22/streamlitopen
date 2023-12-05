@@ -8,9 +8,6 @@ from PIL import Image
 
 
 
-with st.spinner('Wait for it...'):
-    time.sleep(10)
-st.success('Done!')
 
 
 st.title("[가로등 종합 관리 솔루션 : 비추다]")
