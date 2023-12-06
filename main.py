@@ -25,7 +25,7 @@ def load_html_file(file_path):
 
 
 # HTML 파일 경로 설정
-html_file_path = "circled_lightmap_with_brightness.html"  # 여기에 실제 파일 경로를 입력하세요.
+html_file_path = "circled_lightmap_final.html"  # 여기에 실제 파일 경로를 입력하세요.
 
 # HTML 파일을 불러온 후 출력
 html_content = load_html_file(html_file_path)
